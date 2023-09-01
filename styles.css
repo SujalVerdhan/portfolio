@@ -1,0 +1,243 @@
+
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+color:#40514E;
+
+}
+.firstcontainer{
+   
+
+  
+   
+    margin-top:0;
+    margin-left:0;
+    margin-right:0;
+    position:relative;
+    padding-top:100px;
+    background-color :#EAF6F6;
+
+   
+}
+.profile{
+    background-color :#B5D5C5;
+}
+img{
+    width:200px;
+    padding-bottom: 20px;
+}
+p{
+    margin-bottom:0;
+    line-height:3;
+    
+}
+h1{
+    margin:0px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    padding-top:150px;
+    color:#66BFBF;
+   
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    font-size: 2.5rem;
+   color:#66BFBF;
+   font-weight:bold;
+
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    font-weight: bold;
+    font-size: 1.8rem;
+   
+}
+
+.cloud2 {
+    position:absolute;
+    left:300px;
+    bottom:300px;
+  
+    
+}
+.skills
+{
+    background-color :#B5D5C5;
+    padding-top:90px;
+   
+}
+.skills h2{
+    font-size:3rem;
+}
+.cloud1{
+
+  
+ position:absolute;
+ right:300px;
+ top:50px;
+}
+hr{
+    margin:100px auto;
+    color:#EAF6F6;
+    width:5%;
+     background-color: #B5D5C5;;
+     border:dotted;
+     border-bottom-width: 8px;
+     border-top-width:0px;
+     border-left-width:0;
+     border-right-width:0;
+    border-color: #EAF6F6;
+   
+}
+.mountain{
+    height:460px;
+    width:650px;
+}
+.contact-me{
+    background-color:whitesmoke;
+    padding-top:50px;
+    line-height:3;
+}
+.profile{
+
+padding-top: 100px;
+padding-bottom:100px;
+
+}
+.thirdcontainer{
+    
+    background-color:#66BFBF;
+    padding-top: 50px;
+
+}
+a{
+     color:#11999E;
+     text-decoration: none;
+     font-weight:bold;
+}
+a:hover{
+    color:#EAF6F6;
+}
+.skill-row{
+width:50%;
+margin:100px auto 100px auto;
+text-align:left;
+line-height:2;
+
+
+}
+.skill-image{
+width:25%;
+float:left;
+margin-right:30px;
+}
+.skill-row-image{
+   width:25%;
+    float:right;
+    margin-left:30px;
+
+}
+.skill-description{
+    clear:left;
+}
+.skill-row-description{
+    clear:right;
+}
+.secondcontainer{
+    background-color:#B5D5C5;
+    padding-top:50px;
+
+}
+.footer-link{
+    margin-right:50px;
+    margin-bottom:50px;
+}
+.copyright{
+    margin-top:50px;
+    color:#EAF6F6
+}
+.intro{
+    width:30%;
+    margin:auto;
+}
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   
+    border-radius: 9px;
+    color: #FFFFFF;
+    font-family: 'Merriweather', serif;;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 3px;
+    margin-bottom:10px;
+    
+   
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+ background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+ background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+ background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+ background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 9px;
+    text-decoration: none;
+ }
+@media(max-width:1200px){
+    .mountain{
+        width:70%;
+        height:auto;
+    }
+    .cloud2{
+        left:10%;
+        width:20%;
+        position:static;
+        padding-top: 40px;
+        margin-right:50%;
+    }
+    h1{
+        font-size: 4rem;
+        padding-top:20%;
+    }
+    .cloud1{
+        width:20%;
+        right:5%;
+        padding-top:3%;
+        
+    }
+    .secondcontainer img{
+        width:35%;
+    }
+    .intro{
+        width:70%;
+    }
+    hr{
+        margin:20px auto;
+    }
+    .skills img{
+        width:35%;
+        margin-right: 10px;
+    }
+    .skill-row{
+        width:60%;
+    }
+}
