@@ -118,6 +118,7 @@ a{
      color:#11999E;
      text-decoration: none;
      font-weight:bold;
+     
 }
 a:hover{
     color:#EAF6F6;
@@ -236,10 +237,12 @@ margin-right:30px;
     .skills img{
         width:35%;
         margin-right: 0px;
+        margin-left: 0;
     }
     .skill-row{
         width:60%;
     }
     .skill-row h3{
         clear:left;
+    }
 }
