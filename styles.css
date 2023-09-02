@@ -99,8 +99,8 @@ hr{
 }
 .contact-me{
     background-color:whitesmoke;
-    padding-top:50px;
-    line-height:3;
+    padding:5%;
+    line-height:1.5;
 }
 .profile{
 
@@ -177,7 +177,7 @@ margin-right:30px;
     font-family: 'Merriweather', serif;;
     font-size: 15px;
     font-weight: 100;
-    padding: 3px;
+    padding: 12px;
     margin-bottom:10px;
     
    
@@ -235,9 +235,11 @@ margin-right:30px;
     }
     .skills img{
         width:35%;
-        margin-right: 10px;
+        margin-right: 0px;
     }
     .skill-row{
         width:60%;
     }
+    .skill-row h3{
+        clear:left;
 }
