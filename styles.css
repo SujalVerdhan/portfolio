@@ -144,9 +144,11 @@ margin-right:30px;
 }
 .skill-description{
     clear:left;
+    text-align:justify;
 }
 .skill-row-description{
     clear:right;
+    text-align:justify;
 }
 .secondcontainer{
     background-color:#B5D5C5;
